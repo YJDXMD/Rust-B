@@ -13,7 +13,6 @@ cargo build 提示 Blocking waiting for file lock on package cache
 registry = "https://github.com/rust-lang/crates.io-index"
 replace-with = 'ustc'
 [source.ustc]
-
 registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 ```
 ## 
