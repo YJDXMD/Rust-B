@@ -23,17 +23,3 @@ registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 let mut buffer = [0; 1024];
 //let mut buffer = [0; 512];
 ```
-## Git -> Github
->下载后Git后配置
-```
-git config --global user.name "burpcat"
-git config --global user.email "burpcat@qq.com"
-```
->右键Git Base Here
->到.git下(我这里cd后直接拖拽)
-```
-cd /c/Users/CAT/Desktop/Rust-B/s1/.git
-git config user.name "burpcat"
-```
->最后Vs Code登录Github
->Source Control里面上传（之后刷新）就行了
